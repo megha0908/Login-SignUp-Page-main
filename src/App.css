@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --primary-color: #7cb9e8;
+  --secondary-color: #5c6bcb;
+  --white-color: #f0f8ff;
+  --grey-color: #878484;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://github.com/megha0908/login-page-flex/blob/main/photo.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
